@@ -1,0 +1,46 @@
+.blog-item-tag {
+  width: fit-content;
+  font-size: 14px;
+  color: white;
+  background-color: var(--match-yellow);
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
+}
+
+.blog-item {
+  width: 20rem;
+}
+
+.blog-item-img {
+  width: 100%
+}
+
+.blog-item-title {
+  font-weight: 800;
+  margin: 1rem 0 0;
+  font-size: 20px
+}
+
+
+.blog-item-content {
+  margin: 1rem 0
+}
+
+.blog-item-details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.blog-item-author {
+  font-weight: 500;
+  font-size: 14;
+}
+
+.blog-item-separator {
+  font-size: 2.5rem;
+}
+
+.blog-item-date {
+  color: var(--secondary-text)
+}

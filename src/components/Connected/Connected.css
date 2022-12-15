@@ -1,0 +1,54 @@
+.connected-section {
+  background-color: var(--match-green);
+}
+
+.connected-section-main {
+  text-align: center;
+  width: 40rem;
+  max-width: 90%;
+  margin: auto
+}
+
+.connected-section-heading {
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.connected-section-content {
+  font-size: 20px;
+  margin: 2rem 0;
+}
+
+.connected-section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem
+}
+
+.connected-section-form > input {
+  width: 80%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.connected-section-btn {
+  margin: 2rem 0 1rem;
+}
+
+.connected-section-btn > button {
+  background-color: white;
+  color: var(--match-green);
+  font-size: 20px;
+  padding: 0.5rem 2.5rem;
+  border-radius: 6px;
+}
+
+.connected-section-msg {
+  font-size: 14px;
+  margin: 0;
+}

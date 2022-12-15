@@ -1,0 +1,61 @@
+.intro-section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12rem;
+  row-gap: 4rem;
+}
+
+.intro-section-main {
+  justify-self: center;
+  min-width: 20rem;
+  max-width: 25rem;
+}
+
+.intro-section-heading {
+  color: var(--primary-color);
+  margin: 2rem 0;
+}
+
+.intro-support-btn {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.app-store-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.app-btn {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-section-image {
+  width: 35rem;
+  max-width: 90%;
+}
+
+.intro-image {
+  width: 100%;
+  object-fit: cover;
+  animation: 2s fading ease-in-out;
+}
+
+@keyframes fading {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

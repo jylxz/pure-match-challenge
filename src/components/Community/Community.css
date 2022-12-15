@@ -1,0 +1,22 @@
+.community-section {
+  display:flex;
+  flex-wrap: wrap;
+  column-gap: 12rem;
+  row-gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+.community-section-image {
+  width: 22rem;
+}
+
+.community-section-heading {
+  color: var(--match-red);
+  margin: 2rem 0;
+}
+
+.community-section-main {
+  width: 30rem;
+}

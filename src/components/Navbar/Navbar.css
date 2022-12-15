@@ -1,0 +1,60 @@
+.navbar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 1rem;
+  color: var(--secondary-text);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navbar-item {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.navbar-item:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.donate-btn {
+  color: var(--match-red);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.pure-match-btn {
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  width: 20%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .navbar-item {
+    display: none;
+  }
+}

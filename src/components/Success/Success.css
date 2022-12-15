@@ -1,0 +1,54 @@
+.success-section {
+  background-color: var(--primary-color);
+}
+
+.success-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.success-section-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--primary-color);
+  background-color: white;
+  padding: 0 0.5rem;
+}
+
+.success-section-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.success-section-btns > button {
+  background-color: transparent;
+  font-size: 2rem;
+  font-weight: 200;
+  color: white;
+}
+
+.success-section-main {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12rem;
+  row-gap: 4rem
+}
+
+.success-section-quote {
+  width: 40rem;
+  color: white
+}
+
+.success-quote {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.success-quote-author {
+  font-weight: 200;
+}
