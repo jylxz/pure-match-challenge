@@ -5,7 +5,6 @@
   align-items: center;
   column-gap: 12rem;
   row-gap: 4rem;
-  height: 42rem;
 }
 
 .intro-section-main {
@@ -49,7 +48,7 @@
 .intro-image {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   animation: 2s fading ease-in-out;
 }
 
