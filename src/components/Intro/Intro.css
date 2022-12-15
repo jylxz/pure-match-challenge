@@ -41,13 +41,15 @@
 }
 
 .intro-section-image {
-  width: 35rem;
+  width: 36rem;
+  height: 40rem;
   max-width: 90%;
 }
 
 .intro-image {
+  height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   animation: 2s fading ease-in-out;
 }
 
